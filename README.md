@@ -17,6 +17,7 @@
 - **Коррекция дисбаланса классов**: Вычисляем веса для каждого класса с использованием функции `compute_class_weight` из `sklearn.utils.class_weight`. Эти веса используются при обучении модели для снижения влияния преобладающих классов и улучшения обобщающей способности модели на менее представленных данных.
 
 Некоторые фрагменты кода:
+
 ![image](https://github.com/monster2882/customer-outflow/assets/109021389/ea12e2c5-e793-4fbd-a2df-c9ecc5261d3a)
 ![image](https://github.com/monster2882/customer-outflow/assets/109021389/4e27cfce-74bb-42dc-9987-d3c65939777f)
 
@@ -25,6 +26,7 @@
 В рамках решения задачи мы использовали алгоритм **CatBoost**, который показывает отличные результаты в задачах классификации и регрессии, особенно при работе с категориальными данными.
 
 Примеры, как можно настроить модель:
+
 ![image](https://github.com/monster2882/customer-outflow/assets/109021389/7e4e6b1c-9228-4bcd-ab19-d252029c8884)
 ![image](https://github.com/monster2882/customer-outflow/assets/109021389/fb038b09-1818-475a-9fbc-c9ab2ed3a08f)
 
